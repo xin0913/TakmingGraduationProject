@@ -1,0 +1,116 @@
+.divnav{
+    /* border:1px solid black; */
+    border-bottom:1px solid black;
+    font-size: 1.2rem;
+    /* margin:1%; */
+}
+
+.title{
+    width:100%;
+    background-color:rgb(230, 230, 230);
+    border-bottom:1px solid black;
+}
+
+.functiontitle{
+    width:100%;
+    background-color:rgb(230, 230, 230);
+}
+
+.theme{
+    margin:1%;
+    width:30%;
+    padding: 10px;
+}
+
+.navigationBar{
+    width:70%;
+    text-align:right;
+    box-sizing: border-box;
+}
+
+.testBorder{
+    border: 1px solid black;
+}
+
+.div-inline{
+    float:left;
+}
+
+/*讓文字置中靠右*/
+.inline-block-nav-center{
+    text-align: center;
+    float:center;
+    margin:10px;
+}
+
+.Uploadtd, .Matchtd{
+    border: 1px solid black;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.Uploadbutton{
+    margin: 2.5%;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 45%;
+    padding: 15px;
+}
+
+.Uploadtable{
+    border:5px solid gray;
+    margin:0 auto;
+    padding:10px;  
+}
+
+#Uploadtsignin{
+    padding:5px;
+}
+
+#selectWork{
+    text-align: center;
+    padding:10px;  
+    /* font-family: Comic Sans MS, Comic Sans, cursive;   */
+}
+
+.matchPageTable{
+    border:5px solid gray;
+    margin:0 auto;
+    padding:100px;  
+    text-align:center;
+}
+
+.NFTDtail{
+    text-align: center;
+}
+
+#Test_Collection_Name, #Test_Name, #Test_TokenId, #Test_Description, #Test_Owner{
+    /* text-align: center; */
+    box-sizing:border-box;
+}
+
+.Matchbutton{
+    margin: 2.5%;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 45%;
+    padding: 15px;
+}
+
+.notbuy{
+    display:none;
+}
+.sell{
+    display:none;
+}
+.notsell{
+    display:inline-block;
+}
+
+.video{
+    /* width: 100%; */
+}

@@ -1,0 +1,40 @@
+/* 參考：https://medium.com/@mingjunlu/building-a-simple-navbar-with-html-and-css-setting-up-the-skeleton-212fb8767cb5 */
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+/*讓文字置中靠右*/
+.inline-block-nav{
+    text-align: center;
+    float:right;
+    margin:10px;
+}
+
+/*讓元素以 block 的樣子並排*/
+.inline-block-nav > li {
+    display: inline-block;
+}
+
+.inline-block-nav > ul{
+    margin:10px;
+}
+
+#userIcon:hover{
+    border-radius: 100px;
+}
